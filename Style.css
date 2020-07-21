@@ -1,0 +1,57 @@
+nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    height: 33px;
+    width: 90px;
+}
+
+.nav-link span {
+    color: gray;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+svg {
+    height: 24px;
+    width: 24px;
+    color: gray
+}
+
+.active span {
+    color: blue !important;
+}
+
+.active svg {
+    color: blue !important;
+}
+
+.active {
+    border-bottom: 3px solid blue;
+}
+
+.btn-warning {
+    font-size: xx-small;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.svgColor>path {
+    fill: white;
+}
+
+.formData {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+i {
+    color: white;
+}
+
+.blackBGColor {
+    background-color: black;
+}

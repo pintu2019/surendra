@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="./Index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark pb-0 pl-2 pr-2">
+        <a class="navbar-brand pb-2" href="#"><img src="https://go.hex.win/img/logo-white.a7e2731f.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><svg data-v-945c02f6="" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exchange-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="v-icon notranslate svg-inline--fa fa-exchange-alt fa-w-16 v-icon--left v-icon--is-component theme--dark"><path fill="currentColor" d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z" class=""></path></svg><span class="float-right ml-2">Transfer</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><svg data-v-945c02f6="" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="university" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="v-icon notranslate svg-inline--fa fa-university fa-w-16 v-icon--left v-icon--is-component theme--dark"><path fill="currentColor" d="M496 128v16a8 8 0 0 1-8 8h-24v12c0 6.627-5.373 12-12 12H60c-6.627 0-12-5.373-12-12v-12H24a8 8 0 0 1-8-8v-16a8 8 0 0 1 4.941-7.392l232-88a7.996 7.996 0 0 1 6.118 0l232 88A8 8 0 0 1 496 128zm-24 304H40c-13.255 0-24 10.745-24 24v16a8 8 0 0 0 8 8h464a8 8 0 0 0 8-8v-16c0-13.255-10.745-24-24-24zM96 192v192H60c-6.627 0-12 5.373-12 12v20h416v-20c0-6.627-5.373-12-12-12h-36V192h-64v192h-64V192h-64v192h-64V192H96z" class=""></path></svg><span class="float-right ml-2">Stake</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><svg data-v-945c02f6="" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="btc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="v-icon notranslate svg-inline--fa fa-btc fa-w-12 v-icon--left v-icon--is-component theme--dark"><path fill="currentColor" d="M310.204 242.638c27.73-14.18 45.377-39.39 41.28-81.3-5.358-57.351-52.458-76.573-114.85-81.929V0h-48.528v77.203c-12.605 0-25.525.315-38.444.63V0h-48.528v79.409c-17.842.539-38.622.276-97.37 0v51.678c38.314-.678 58.417-3.14 63.023 21.427v217.429c-2.925 19.492-18.524 16.685-53.255 16.071L3.765 443.68c88.481 0 97.37.315 97.37.315V512h48.528v-67.06c13.234.315 26.154.315 38.444.315V512h48.528v-68.005c81.299-4.412 135.647-24.894 142.895-101.467 5.671-61.446-23.32-88.862-69.326-99.89zM150.608 134.553c27.415 0 113.126-8.507 113.126 48.528 0 54.515-85.71 48.212-113.126 48.212v-96.74zm0 251.776V279.821c32.772 0 133.127-9.138 133.127 53.255-.001 60.186-100.355 53.253-133.127 53.253z" class=""></path></svg><span class="float-right ml-2">Claim</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><svg data-v-945c02f6="" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="share-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="v-icon notranslate svg-inline--fa fa-share-alt fa-w-14 v-icon--left v-icon--is-component theme--dark"><path fill="currentColor" d="M352 320c-22.608 0-43.387 7.819-59.79 20.895l-102.486-64.054a96.551 96.551 0 0 0 0-41.683l102.486-64.054C308.613 184.181 329.392 192 352 192c53.019 0 96-42.981 96-96S405.019 0 352 0s-96 42.981-96 96c0 7.158.79 14.13 2.276 20.841L155.79 180.895C139.387 167.819 118.608 160 96 160c-53.019 0-96 42.981-96 96s42.981 96 96 96c22.608 0 43.387-7.819 59.79-20.895l102.486 64.054A96.301 96.301 0 0 0 256 416c0 53.019 42.981 96 96 96s96-42.981 96-96-42.981-96-96-96z" class=""></path></svg><span class="float-right ml-2">Refer</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><svg data-v-945c02f6="" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="random" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="v-icon notranslate svg-inline--fa fa-random fa-w-16 v-icon--left v-icon--is-component theme--dark"><path fill="currentColor" d="M504.971 359.029c9.373 9.373 9.373 24.569 0 33.941l-80 79.984c-15.01 15.01-40.971 4.49-40.971-16.971V416h-58.785a12.004 12.004 0 0 1-8.773-3.812l-70.556-75.596 53.333-57.143L352 336h32v-39.981c0-21.438 25.943-31.998 40.971-16.971l80 79.981zM12 176h84l52.781 56.551 53.333-57.143-70.556-75.596A11.999 11.999 0 0 0 122.785 96H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12zm372 0v39.984c0 21.46 25.961 31.98 40.971 16.971l80-79.984c9.373-9.373 9.373-24.569 0-33.941l-80-79.981C409.943 24.021 384 34.582 384 56.019V96h-58.785a12.004 12.004 0 0 0-8.773 3.812L96 336H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h110.785c3.326 0 6.503-1.381 8.773-3.812L352 176h32z" class=""></path></svg><span class="float-right ml-2">Transform</span></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-warning my-2 my-sm-0 mr-2" type="submit">ADD TO METAMASK</button>
+                <span class="colorWhite"><svg class="svgColor" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="language" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="v-icon notranslate ml-1 mr-1 svg-inline--fa fa-language fa-w-20 v-icon--left v-icon--is-component theme--dark" style="font-size: 28px; height: 28px; width: 28px;"><path fill="currentColor" d="M152.1 236.2c-3.5-12.1-7.8-33.2-7.8-33.2h-.5s-4.3 21.1-7.8 33.2l-11.1 37.5H163zM616 96H336v320h280c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm-24 120c0 6.6-5.4 12-12 12h-11.4c-6.9 23.6-21.7 47.4-42.7 69.9 8.4 6.4 17.1 12.5 26.1 18 5.5 3.4 7.3 10.5 4.1 16.2l-7.9 13.9c-3.4 5.9-10.9 7.8-16.7 4.3-12.6-7.8-24.5-16.1-35.4-24.9-10.9 8.7-22.7 17.1-35.4 24.9-5.8 3.5-13.3 1.6-16.7-4.3l-7.9-13.9c-3.2-5.6-1.4-12.8 4.2-16.2 9.3-5.7 18-11.7 26.1-18-7.9-8.4-14.9-17-21-25.7-4-5.7-2.2-13.6 3.7-17.1l6.5-3.9 7.3-4.3c5.4-3.2 12.4-1.7 16 3.4 5 7 10.8 14 17.4 20.9 13.5-14.2 23.8-28.9 30-43.2H412c-6.6 0-12-5.4-12-12v-16c0-6.6 5.4-12 12-12h64v-16c0-6.6 5.4-12 12-12h16c6.6 0 12 5.4 12 12v16h64c6.6 0 12 5.4 12 12zM0 120v272c0 13.3 10.7 24 24 24h280V96H24c-13.3 0-24 10.7-24 24zm58.9 216.1L116.4 167c1.7-4.9 6.2-8.1 11.4-8.1h32.5c5.1 0 9.7 3.3 11.4 8.1l57.5 169.1c2.6 7.8-3.1 15.9-11.4 15.9h-22.9a12 12 0 0 1-11.5-8.6l-9.4-31.9h-60.2l-9.1 31.8c-1.5 5.1-6.2 8.7-11.5 8.7H70.3c-8.2 0-14-8.1-11.4-15.9z" class=""></path></svg>
+                    <span class="ml-2 mr-2 font-weight-bolder">English</span>
+                <svg class="svgColor" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="v-icon notranslate svg-inline--fa fa-caret-down fa-w-10 v-icon--is-component theme--dark"
+                    style="font-size: 16px; height: 16px; width: 16px;"><path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z" class=""></path></svg>
+                </span>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid bg-dark">
+        <div class="row p-2">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h5 style="color:white">Stake</h5>
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10">
+                <div class="row formData" style="border-bottom: 1px solid blue;">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <small class="text-primary">Stake Amount in HEX (52,652 HEX available)</small>
+                        <p class="text-white">52,652.02543536</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <h6><span class="badge badge-secondary blackBGColor mt-1">MAX</span></h6>
+                        <p class="text-primary">HEX</p>
+                    </div>
+                </div>
+                <div class="row formData border-bottom mt-4">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <small class="text-white">Stake Length in Days</small>
+                        <p class="text-white">162</p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <i class="fa fa-calendar text-center p-2 mt-1 blackBGColor" aria-hidden="true"></i>
+                        <p class="text-white">Days</p>
+                    </div>
+                </div>
+                <div class="row p-1 mt-5">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 p-0 ">
+                        <button class="btn btn-dark mt-5 blackBGColor">STAKE</button>
+                    </div>
+
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 pr-0">
+                        <table class="float-right d-inline-block">
+                            <tr>
+                                <td class="pr-5 text-white">Start Day:</td>
+                                <td class="text-white">193</td>
+                            </tr>
+                            <tr>
+                                <td class="text-white">Last Full Day:</td>
+                                <td class="text-white">354</td>
+                            </tr>
+                            <tr>
+                                <td class="text-white">End Day:</td>
+                                <td class="text-white">355</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <table>
+                    <tr>
+                        <th class="text-white">Stake Bonuses:</th>
+                    </tr>
+                    <tr>
+                        <td class="pr-5 pl-3 text-muted">Longer Pays Better:</td>
+                        <td class="text-muted">+4,657HEX</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-3 text-muted">Bigger Pays Better:</td>
+                        <td class="text-muted">+1,848HEX</td>
+                    </tr>
+                    <tr>
+                        <td class="text-white pl-3">Total:</td>
+                        <td class="text-white pl-2">4,659 HEX</td>
+                    </tr>
+                    <tr>
+                        <td class="text-white">Effective HEX:<span class="badge badge-pill badge-warning">?</span></td>
+                        <td class="text-white">57,311 HEX</td>
+                    </tr>
+                </table>
+                <table class="mt-3">
+                    <tr>
+                        <td class="pr-5 text-white">Share Rate:</td>
+                        <td class="text-white text-right" style="padding-left:12px">96.278M / HEX</td>
+
+                    </tr>
+                    <tr>
+                        <td class="pr-5 text-white">Stake Shares:<span class="badge badge-pill badge-warning">?</span></td>
+                        <td class="text-white text-right">5.517T</td>
+                    </tr>
+                </table>
+                <table class="mt-3">
+                    <tr>
+                        <td class="pr-5 text-white">BigPayDay HEX*:<span class="badge badge-pill badge-warning">?</span> </td>
+                        <td class="text-white text-right">103,726 HEX</td>
+                    </tr>
+                    <tr>
+                        <td class="pr-5 text-white">% Gain* :</td>
+                        <td class="text-white text-right">197.004%</td>
+                    </tr>
+                    <tr>
+                        <td class="pr-5 text-white">% APY* :</td>
+                        <td class="text-white text-right">446.624%</td>
+                    </tr>
+                </table>
+                <small class="text-italic text-muted">*If stake is still open on BigPayDay</small>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+        </div>
+        <div class="row  mt-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h5 class="text-white">Active Stakes</h5>
+                <table class="formData p-1 table-responsive" style="width: 75%;">
+                    <tr class="border-bottom">
+                        <td><i class="fa fa-sort-desc ml-3 pl-3" aria-hidden="true"></i></td>
+                        <td class="pr-5 text-white">Start</td>
+                        <td class="pr-5 text-white">End</td>
+                        <td class="pr-5 text-white">Progress</td>
+                        <td class="pr-5 text-white">Principal</td>
+                        <td class="pr-5 text-white">Shares</td>
+                        <td class="pr-5 text-white">BigPayDay <span class="badge badge-pill badge-warning">?</span></td>
+                        <td class="pr-5 text-white">Interest</td>
+                        <td class="pr-5 text-white">Current Value</td>
+                    </tr>
+                    <tr class="text-center">
+                        <td class="text-white" colspan="9">None</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row  mt-4">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h5 class="text-white">Stake History</h5>
+                <table class="formData p-1 mb-3 table-responsive" style="width: 75%;">
+                    <tr class="border-bottom">
+                        <td class="pr-5 pl-3 text-white">Start</td>
+                        <td><i class="fa fa-sort-desc" aria-hidden="true"></i></td>
+                        <td class="pr-5 text-white">End</td>
+                        <td class="pr-5 text-white">Progress</td>
+                        <td class="pr-5 text-white">Principal</td>
+                        <td class="pr-5 text-white">Shares</td>
+                        <td class="pr-5 text-white">BigPayDay</td>
+                        <td class="pr-5 text-white">Interest</td>
+                        <td class="pr-5 text-white">Final Value</td>
+                    </tr>
+                    <tr class="text-center">
+                        <td class="text-white " colspan="9">None</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
